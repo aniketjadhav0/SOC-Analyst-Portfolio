@@ -1,0 +1,52 @@
+title: Windows Multiple Failed Login Attempts
+id: 7d8f1e5a-1111-4444-8888-bruteforce001
+status: experimental
+description: Detects multiple failed login attempts within short time window
+author: Aniket Jadhav
+date: 2026/03/01
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4625
+  condition: selection
+fields:
+  - EventID
+  - AccountName
+  - IpAddress
+  - WorkstationName
+falsepositives:
+  - User typing wrong password
+  - Service account authentication issues
+level: medium
+tags:
+  - attack.credential_access
+  - attack.t1110
+
+
+  🔎 What This Does
+
+It detects:
+
+Windows Event ID 4625
+
+Which means failed login
+
+Mapped to:
+
+T1110 – Brute Force
+
+MITRE ATT&CK
+
+This is basic version.
+
+Later you will improve with:
+
+Threshold
+
+Time window
+
+IP repetition logic
+
+But this is correct structure.
