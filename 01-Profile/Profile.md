@@ -101,4 +101,4 @@ Long-term objective: Transition into a dedicated SOC L2 / Threat Detection Analy
 
 📍 Pune, India  
 📧 aniketj078@gmail.com  
-🔗 LinkedIn: (Add your LinkedIn URL here)
+🔗 LinkedIn: https://www.linkedin.com/in/aniket-jadhav0705/
