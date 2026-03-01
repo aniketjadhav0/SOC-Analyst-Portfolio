@@ -1,1 +1,0 @@
-Aspiring SOC Analyst with hands-on experience in SIEM tools, log analysis, threat detection, and incident response. Passionate about Blue Teaming, malware analysis, and defensive security. Currently building real-world SOC labs using Wazuh and Splunk.
