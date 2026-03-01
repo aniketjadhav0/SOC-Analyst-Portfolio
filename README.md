@@ -1,5 +1,5 @@
 # 🛡 Blue Team SOC Portfolio  
-### Aniket Jadhav | SOC Analyst (L1 / Junior L2 Track)
+### Aniket Jadhav | SOC Analyst
 
 ---
 
